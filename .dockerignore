@@ -3,4 +3,4 @@
 
 *
 !Dockerfile
-!build
+!build/libs/*.jar
