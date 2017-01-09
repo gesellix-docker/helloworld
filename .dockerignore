@@ -1,0 +1,6 @@
+# pretty much ignore everything the jar file needed
+
+
+*
+!Dockerfile
+!build
