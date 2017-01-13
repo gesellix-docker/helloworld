@@ -2,4 +2,4 @@
 
 **
 !Dockerfile
-!build\libs\*.jar
+!build/libs/*.jar
