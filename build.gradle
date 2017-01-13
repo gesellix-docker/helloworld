@@ -1,5 +1,5 @@
 plugins {
-    id "com.bmuschko.docker-remote-api" version "3.0.5"
+    id "de.gesellix.docker" version "2017-01-02T18-10-48"
 }
 
 group 'blabla'
@@ -26,9 +26,9 @@ jar {
 docker {
 }
 
-import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
-task image(type: DockerBuildImage) {
+import de.gesellix.gradle.docker.tasks.*
+task image(type: DockerBuildTask) {
     dependsOn build
-    inputDir = project.projectDir
-    tag = 'helloworld'
+    buildContextDirectory = project.projectDir
+    imageName = 'helloworld' 
 }
