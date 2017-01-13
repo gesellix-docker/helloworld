@@ -1,5 +1,5 @@
 plugins {
-    id "de.gesellix.docker" version "2017-01-09T01-11-27"
+    id "de.gesellix.docker" version "2017-01-02T18-10-48"
 }
 
 group 'blabla'

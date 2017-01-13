@@ -1,6 +1,5 @@
 # pretty much ignore everything the jar file needed
 
-
-*
+**
 !Dockerfile
-!build/libs/*.jar
+!build\libs\*.jar
